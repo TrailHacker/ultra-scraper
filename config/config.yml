@@ -1,5 +1,7 @@
 defaults: &defaults
   ultra_marathon_results_uri: http://statistik.d-u-v.org/geteventlist.php?year=2012&dist=all&country=4 
+  race_uri_format: http://statistik.d-u-v.org/getresultevent.php?event={race_id}
+  runner_uri_format: http://statistik.d-u-v.org/getresultperson.php?runner={runner_id}
 
 development:
   <<: *defaults

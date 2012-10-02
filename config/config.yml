@@ -1,0 +1,11 @@
+defaults: &defaults
+  ultra_marathon_results_uri: http://statistik.d-u-v.org/geteventlist.php?year=2012&dist=all&country=4 
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
